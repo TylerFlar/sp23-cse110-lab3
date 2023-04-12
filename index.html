@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Group Minecraft Server Meeting</title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Group Minecraft Server Meeting</h1>
+        </header>
+        <nav>
+            <a href="#attendance">Attendance</a> |
+            <a href="#agenda">Agenda</a> |
+            <a href="#unfinished-business">Unfinished Business</a> |
+            <a href="#new-business">New Business</a> |
+            <a href="#miscellaneous">Miscellaneous</a>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Meeting Information</h2>
+                <div>
+                    <h3>Date: April 11, 2023</h3>
+                    <span>Meeting ID: MC29053209</span>
+                </div>
+                <hr>
+            </section>
+
+            <section id="attendance">
+                <h2>Attendance</h2>
+                <ul>
+                    <li>Steve</li>
+                    <li>Alex</li>
+                    <li>Creeper</li>
+                    <li>Zombie</li>
+                </ul>
+            </section>
+
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Server Updates</li>
+                    <li>Resource Allocation</li>
+                    <li>Upcoming Events</li>
+                    <li>Community Guidelines</li>
+                </ol>
+            </section>
+
+            <section id="unfinished-business">
+                <h2>Unfinished Business</h2>
+                <p><strong>Server maintenance:</strong> Incomplete due to technical issues. <em>Further discussion required</em>.</p>
+            </section>
+
+            <section id="new-business">
+                <h2>New Business</h2>
+                <p><b>New server plugins:</b> Research and implement new plugins for the server. <i>Input from members appreciated</i>.</p>
+            </section>
+
+            <section id="miscellaneous">
+                <h2>Miscellaneous</h2>
+                <details>
+                    <summary>Questions & Concerns</summary>
+                    <p>Is there a plan to expand the server capacity?</p>
+                    <p>Can we organize a charity event in the server?</p>
+                </details>
+            </section>
+
+            <section>
+                <h2>Current Map</h2>
+                <img src="imgs/map.png" alt="Current Map" width="30%">
+            </section>
+
+            <section>
+                <h2>Meeting Recordings</h2>
+                <audio controls>
+                    <source src="rec/meeting-recording.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <video controls>
+                    <source src="rec/meeting-recording.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </section>
+
+            <section>
+                <h2>Contact Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                        <br>
+                        <label>Topic:</label>
+                        <select>
+                            <option value="general">General</option>
+                            <option value="server">Server</option>
+                            <option value="events">Events</option>
+                        </select>
+                        <br>
+                        <label>Priority:</label>
+                        <input list="priorities" name="priority">
+                        <datalist id="priorities">
+                            <option value="Low">
+                            <option value="Medium">
+                            <option value="High">
+                        </datalist>
+                        <br>
+                        <label>Message:</label>
+                        <textarea></textarea>
+                        <br>
+                        <label for="newsletter">Subscribe to Newsletter:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <br>
+                        <label>Preferred Contact Method:</label>
+                        <input type="radio" id="phone" name="contact" value="phone">
+                        <label for="phone">Phone</label>
+                        <input type="radio" id="email" name="contact" value="email">
+                        <label for="email">Email</label>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Group Minecraft Server Meeting</p>
+    </body>
+</html>
