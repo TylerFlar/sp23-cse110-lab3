@@ -1,3 +1,3 @@
-# Lab 2
+# Lab 3
 
-Website: https://tylerflar.github.io/CSE110_Lab2/
+Website: https://tylerflar.github.io/sp23-cse110-lab3/
