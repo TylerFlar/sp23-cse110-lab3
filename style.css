@@ -1,0 +1,65 @@
+/* General Comment: Main Stylesheet */
+
+/* Colors */
+body {
+    color: rgba(40, 40, 40, 1);
+    background-color: hsl(210, 60%, 95%);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: hsla(200, 100%, 40%, 1);
+}
+
+/* Background */
+header {
+    background-color: rgb(255, 255, 255)
+}
+
+/* Units */
+h1 {
+    font-size: 2rem; /* relative unit */
+}
+
+p {
+    font-size: 16px; /* absolute unit */
+    line-height: 1.5em; /* relative unit */
+    letter-spacing: 0.05in; /* absolute unit */
+    max-width: 75ch; /* relative unit */
+    margin-left: 2.5%; /* relative unit */
+    margin-right: 10px; /* absolute unit */
+}
+
+/* Box Model */
+header {
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
+
+nav {
+    margin: 0 0 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+main section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsl(210, 20%, 80%);
+    border-radius: 5px;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
