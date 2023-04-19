@@ -128,3 +128,18 @@ a:active, button:active {
     color: rgba(255,255,255, 0.6);
     background-color: rgba(0,128,128, 0.6);
 }
+
+/* Layouts - Flexbox */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Layouts - Grid */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
