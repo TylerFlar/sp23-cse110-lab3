@@ -63,3 +63,25 @@ hr {
     margin: 1rem 0;
 }
 
+/* Text */
+body {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Display */
+nav {
+    display: inline-block;
+}
+
+nav a {
+    display: inline;
+}
+
