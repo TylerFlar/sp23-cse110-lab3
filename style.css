@@ -163,3 +163,13 @@ video {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* General sibling combinator */
+h2 ~ p {
+    margin-top: 10px;
+}
+
+/* Adjacenet sibling combinator */
+h2 + p {
+    margin-top: 10px;
+}
