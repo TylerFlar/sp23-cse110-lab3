@@ -158,3 +158,8 @@ main {
 video {
     max-width: 100%;
 }
+
+/* Custom Font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
