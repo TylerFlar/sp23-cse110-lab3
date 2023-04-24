@@ -174,3 +174,76 @@ h2 ~ p {
 h2 + p {
     margin-top: 10px;
 }
+
+/* Padding example */
+.padding-example {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+/* Display examples */
+.display-example {
+    display: none;
+}
+
+.display-block-example {
+    display: block;
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.position-static {
+    position: static;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.position-fixed {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 10;
+}
+
+.position-absolute {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Selector examples */
+.example-class {
+    color: blue;
+}
+
+#example-id {
+    color: green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[data-example-attribute="true"] {
+    color: red;
+}
+
+.parent > .child {
+    color: purple;
+}
+
+.example-class[data-example-attribute="true"] {
+    font-weight: bold;
+}
